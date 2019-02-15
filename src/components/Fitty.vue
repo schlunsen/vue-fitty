@@ -23,7 +23,7 @@ export default {
   },
   methods: {
     init() {
-      let fittyInstance = fitty("#" + this.contentID)
+      let fittyInstance = fitty("#" + this.contentID, this.options)
       fittyInstance.fit()
     },
   }
