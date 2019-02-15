@@ -24,8 +24,6 @@ export default {
   methods: {
     init() {
       let fittyInstance = fitty("#" + this.contentID, this.options)
-      console.log(fittyInstance)
-      //fittyInstance.fit()
     },
   }
 };

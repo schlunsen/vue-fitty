@@ -31,9 +31,8 @@ Vue.use(Fitty)
 export default {
   data: () => ({
       options: {
-        duration: 1000,
-        radius: 2000,
-        delay: 1000
+        minSize: 11,
+        maxSize: 120,
       }
   }),
   components: {

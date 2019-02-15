@@ -15,7 +15,10 @@ import Fitty from "./components/Fitty.vue";
 export default {
   name: "app",
   data: () => ({
-    options: {}
+    options: {
+      minSize: 18,
+      maxSize: 120
+    }
     
   }),
   components: {
