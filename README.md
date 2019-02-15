@@ -1,6 +1,4 @@
-# fitty
-
-** UNDER CONSTRUCTION **
+# Vue Fitty
 
 Fitty text wrapper for Vue
 
@@ -15,11 +13,10 @@ Fitty text wrapper for Vue
 <template>
     <div>
         <!-- Wrap your component with Fitty -->
-        <fitty :animation="'circle'" :options="options">
+        <fitty :options="options">
             <template v-slot:content>
             
-            <!-- CONTENT HERE -->
-            <my-awesome-component></my-awesome-component>
+              <h1>FITTED TEXT HERE</h1>
 
             </template>
         </fitty>

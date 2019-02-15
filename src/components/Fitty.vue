@@ -1,6 +1,6 @@
 <template>
-  <div class="mainwrap" >
-    <slot name="content" :id="contentID" />
+  <div class="mainwrap" :id="contentID" >
+    <slot name="content"  />
   </div>
     
 </template>
@@ -24,7 +24,8 @@ export default {
   methods: {
     init() {
       let fittyInstance = fitty("#" + this.contentID, this.options)
-      fittyInstance.fit()
+      console.log(fittyInstance)
+      //fittyInstance.fit()
     },
   }
 };

@@ -2,7 +2,7 @@
   <div id="app">
     <Fitty :options="options">
       <template v-slot:content>
-        <img src="https://airc.ie/wp-content/uploads/horse-web.jpg" alt>
+        <h1>Huge text</h1>
       </template>
     </Fitty>
   </div>
