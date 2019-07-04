@@ -1,6 +1,6 @@
 {
   "name": "vue-fitty",
-  "version": "0.1.2",
+  "version": "0.1.7",
   "main": "./dist/vue-fitty.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
